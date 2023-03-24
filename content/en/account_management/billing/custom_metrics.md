@@ -75,7 +75,7 @@ To obtain the temperature in Florida, you can recombine the custom metrics of:
 - `temperature{country:USA, state:Florida, city:Miami}`
 - `temperature{state:Florida, city:Miami, country:USA}`
 
-### Configure tags and aggregations with Metrics without Limits
+### Configure tags and aggregations with Metrics without Limits™
 
 Custom metrics volumes can be impacted by configuring tags and aggregations using [Metrics without Limits™][3]. Metrics without Limits™ decouples ingestion costs from indexing costs -- so you can continue sending Datadog all of your data (everything is ingested) and you can specify an allowlist of tags you'd want to remain queryable in the Datadog platform. Given the volume of data Datadog is ingesting for your configured metrics now differs from the smaller, remaining volume you’ve indexed, you'll see two distinct volumes on your Usage page as well as the Metrics Summary page. 
  
